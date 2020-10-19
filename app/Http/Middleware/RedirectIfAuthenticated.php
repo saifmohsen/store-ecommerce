@@ -19,7 +19,11 @@ class RedirectIfAuthenticated
     public function handle($request, Closure $next, $guard = null)
     {
         if (Auth::guard($guard)->check()) {
-            return redirect(RouteServiceProvider::HOME);
+            if ($guard == 'admin')
+                return redirect(RouteServiceProvider::ADMIN); // لو هو عامل تسجيل دخول خليني في الصفحة اللي انا فيها
+             // طبعا المتغير ADMIN  بنضيفو في ملف الRouteServiceProvider يعني بنضغط ctrul وبالماوس على اسم الملف اللي هان
+            else
+            return redirect(RouteServiceProvider::HOME); //لو هو مش عامل رجعني على الصفحة الرئيسية
         }
 
         return $next($request);
