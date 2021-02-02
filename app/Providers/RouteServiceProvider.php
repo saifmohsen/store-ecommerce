@@ -22,7 +22,7 @@ class RouteServiceProvider extends ServiceProvider
      * @var string
      */
     public const HOME  = '/home';
-    public const ADMIN = '/admin'; // المتغير اللي ضفنا اسمه
+    public const ADMIN = '/admin'; // المتغير اللي ضفنا اسمه ف هو راح يروح لل url او الراوت هاد
 
 
     /**

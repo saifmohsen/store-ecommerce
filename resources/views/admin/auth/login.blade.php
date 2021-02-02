@@ -29,7 +29,7 @@
                                     <div class="form-control-position">
                                         <i class="ft-user"></i>
                                     </div>
-                                    <!-- هلقست لازم اعمل بعد كل اينبوت رسالة خطأ لو حدث تظهر -->
+                                    <!-- هلقيت لازم اعمل بعد كل اينبوت رسالة خطأ لو حدث تظهر -->
                                     <!-- هلقيت لو ظهر خطأ راح تظهر هاي الرسالة -->
                                     @error('email')
                                     <span class="text-danger">{{$message}}</span>
