@@ -3,6 +3,7 @@
 namespace App\Http\Middleware;
 
 use Illuminate\Auth\Middleware\Authenticate as Middleware;
+use Illuminate\Support\Facades\Request;
 
 class Authenticate extends Middleware
 {
@@ -14,8 +15,11 @@ class Authenticate extends Middleware
      */
     protected function redirectTo($request)
     {
-        if (! $request->expectsJson()) {
-            return route('login');
+        if (! $request->expectsJson()) { //if he is not log in
+            if (Request::is('admin/*')) // if request (route) contain admin, and he is not log in to system, then return to admin login
+                return route('admin.login');
+             else // اما لو الراوت لا يحتوي على كلمة admin ومش عامل تسجيل دخول رجعه على الصفحة تسجيل الدخول الخاصة باليوزر
+                return route('login');
         }
     }
 }
