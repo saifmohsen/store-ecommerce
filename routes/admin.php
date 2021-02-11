@@ -27,7 +27,7 @@ Route::group(
         Route::get('/', 'DashboardController@index')->name('Admin.dashboard');
         Route::group(['prefix' => 'settings'], function (){
             Route::get('shipping-methods/{type}', 'SettingController@shippingMethods')->name('get.shipping.methods');
-            Route::put('shipping-methods/{id}', 'SettingController@UpdateshippingMethods')->name('update.shipping.methods');
+            Route::put('shipping-methods/{id}', 'SettingController@UpdateShippingMethods')->name('update.shipping.methods');
         });
     });
 // هان الصفحات اللي مش لازم يكون عليهن ميدلوير زي صفحة تسجيل الدخول
