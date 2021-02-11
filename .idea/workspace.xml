@@ -20,22 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b35403a-8752-4ff9-a5b1-aaca5b9109ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Helpers/general.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/SettingController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/setting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/settingTranslation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_02_023520_create_settings_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_02_025126_create_setting_translations_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/AdminDatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/SettingDatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/admin/sidebar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/admin/sidebar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/settings/shippings/shipping.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/SettingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/SettingController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/settings/shippings/shipping.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/settings/shippings/shipping.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -229,7 +217,9 @@
       <workItem from="1612392109988" duration="2242000" />
       <workItem from="1612448288712" duration="8452000" />
       <workItem from="1612563724880" duration="6589000" />
-      <workItem from="1612910204181" duration="5888000" />
+      <workItem from="1612910204181" duration="15565000" />
+      <workItem from="1612974002445" duration="11760000" />
+      <workItem from="1613080439073" duration="4118000" />
     </task>
     <servers />
   </component>
