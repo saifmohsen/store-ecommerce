@@ -25,6 +25,8 @@ Route::group(
     ['prefix' => LaravelLocalization::setLocale(), 'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]], function(){
     Route::group(['namespace' => 'Admin', 'middleware' => 'auth:admin', 'prefix' => 'admin'], function () {
         Route::get('/', 'DashboardController@index')->name('Admin.dashboard');
+        Route::get('logout','LoginController@logout')->name('admin.logout');
+        // to logout you must be authenticatd admin and logged in
         Route::group(['prefix' => 'settings'], function (){
             Route::get('shipping-methods/{type}', 'SettingController@shippingMethods')->name('get.shipping.methods');
             Route::put('shipping-methods/{id}', 'SettingController@UpdateShippingMethods')->name('update.shipping.methods');

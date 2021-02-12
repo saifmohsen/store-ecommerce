@@ -33,5 +33,15 @@ class LoginController extends Controller
         // error file will be included in the login page because if there a mistake will appear in the same page
         // success file will be included in the next page for cuurent request
     }
+    public function logout(){
+       //  auth('admin') ->logout(); // ممكن استخدم هاي الطريقة لكن لو مثلا راح اسنخدم هاد الامر اكتر من مرة بحطوا في ميثود
+        // ولو كنت راح استخدمه في اكتر من فايل بحطو في trait عشان يكون متاح للمشروع بشكل كامل
+        $guard = $this -> getGaurd();
+        $guard -> logout();
+        return redirect() -> route('admin.login');
+    }
+    private function getGaurd(){
+        return auth('admin');
+    }
 
 }
