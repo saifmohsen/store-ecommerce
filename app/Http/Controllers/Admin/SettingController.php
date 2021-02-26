@@ -53,7 +53,7 @@ class SettingController extends Controller
                         //$shipping_method -> save(); => this save translations that exist in translation table
                         DB::commit(); // هاد الامرعشان ينفذ transaction اللي فوق
                         // يعني لو ما عملناه مش راح ينفذ جمل الاستعلام لانه هو بينفذ امر transaction
-                        return redirect()->back()->with(['success' => 'saved successfully']);
+                        return redirect()->back()->with(['success' => __('admin/alerts.saved successfully')]);
                     }catch (\Exception $exception){
                         return redirect()->back()->with(['errors' => 'there is a problem, please try again later']);
                         DB::rollBack(); // هاد عشان يلغي عملية ارسال الاستعلام للداتبيز لو صار عندي اي خطأ
