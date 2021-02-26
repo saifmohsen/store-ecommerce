@@ -8,7 +8,7 @@
 
             <li class="nav-item  open ">
                 <a href=""><i class="la la-home"></i>
-                    <span class="menu-title" data-i18n="nav.dash.main">{{__('admin/sidebar.language')}} </span>
+                    <span class="menu-title" data-i18n="nav.dash.main">{{ App::getLocale() }} </span>
                     <span
                         class="badge badge badge-info badge-pill float-right mr-2"></span>
                 </a>

@@ -21,9 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5b35403a-8752-4ff9-a5b1-aaca5b9109ca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/SettingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/SettingController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/setting.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/setting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,17 +167,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang/en" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/profile" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\ecommerce\resources\lang\en" />
+      <recent name="C:\xampp\htdocs\ecommerce\resources\views\admin\profile" />
       <recent name="C:\xampp\htdocs\ecommerce\resources\lang\ar\admin" />
+      <recent name="C:\xampp\htdocs\ecommerce\resources\lang\en" />
       <recent name="C:\xampp\htdocs\ecommerce\resources\views\admin\settings\shippings" />
       <recent name="C:\xampp\htdocs\ecommerce\resources\views\admin" />
-      <recent name="C:\xampp\htdocs\ecommerce\resources\views\admin\auth" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\ecommerce\app\Models" />
@@ -219,7 +223,14 @@
       <workItem from="1612563724880" duration="6589000" />
       <workItem from="1612910204181" duration="15565000" />
       <workItem from="1612974002445" duration="11760000" />
-      <workItem from="1613080439073" duration="8362000" />
+      <workItem from="1613080439073" duration="9568000" />
+      <workItem from="1613482124973" duration="4641000" />
+      <workItem from="1613664561758" duration="10445000" />
+      <workItem from="1613823104598" duration="9782000" />
+      <workItem from="1614002018988" duration="9222000" />
+      <workItem from="1614288984718" duration="87000" />
+      <workItem from="1614292458144" duration="574000" />
+      <workItem from="1614360385253" duration="1588000" />
     </task>
     <servers />
   </component>

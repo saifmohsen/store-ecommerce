@@ -12,6 +12,7 @@ class setting extends Model
     // طبعا هاد الامر بيعملي relation بين ال settingTranslation و setting
 // ع اساس انه اي query بستخدمها ع هاد المودل يرجعلي كل الترجمات تاعتها
 // Translatable is a trait file, and you can use it by click on ctrlul + mouse
+// طبعا لو كتبت اي method هان بنفس اسم method الموجودة في trait راح يظهر exception
 
     /**
      * The relations to eager load on every query.

@@ -17,7 +17,8 @@ class Authenticate extends Middleware
     {
         if (! $request->expectsJson()) { //if he is not log in
             if (Request::is( app() ->getLocale().'/admin*')) // if request (route) contain admin, and he is not log in to system, then return to admin login
-                 // طبعا admin*/ هاي معناها بداية الراوت راح يكون في admin
+                // طبعا admin*/ هاي معناها بداية الراوت راح يكون في admin
+              // حطينا * انه بعد كلمة admin ممكن ييجي اي شي او ممكن ميكون فيه اشي بعدها لانه كل الروتات اللي عندي موجوج فيها بعد كلمة admin
                 // فراح يرجعني لل admin login
                 // لكن عشان انا مستخدم تعدد اللغات فراح يضيف عندي مثلا ar , en وهكذا حسب اللغة الموجودة قبل كلمة admin
                 //عشان هيك لازم اضيف امر ()app.getlocal عشان يضيف اختصار اللغة قبل كلمة admin في url
