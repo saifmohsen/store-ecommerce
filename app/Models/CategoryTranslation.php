@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class CategoryTranslation extends Model
 {
     protected $fillable = ['name'];
-    public $timestamps = false;
+    public $timestamps = false; // لازم لما اكون مستخدم ال translation اكتب $timestamps سواء كان false or ture
 }

@@ -18,6 +18,7 @@ class ProfileController extends Controller
     public function updateProfile(ProfileRequest $request, $id){
 
               try {
+
             // بقدر ارجع قيمة عمود محدد من الجدول بهاد الامر .. مثلا بدي ارجع id
             //auth('admin') ->user()->id; will return id of the user
             $admin = Admin::find($id); //retive data of this id as collection

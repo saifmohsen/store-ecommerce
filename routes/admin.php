@@ -36,6 +36,19 @@ Route::group(
             Route::get('shipping-methods/{type}', 'SettingController@shippingMethods')->name('get.shipping.methods');
             Route::put('shipping-methods/{id}', 'SettingController@UpdateShippingMethods')->name('update.shipping.methods');
         });
+        ################################# Categires Routes ################################
+        Route::resource('main-categories', 'MainCategoriesController')->except([
+             'update' // يعنيRoute put مش راح يكون ضمن resource فانا عملت استثناء لهاي الميثود الخاصة بهاد الراوت
+        ]); // لكن بقدر استخدمها ل Route زي منا عاملها تحت
+        Route::put('main-categories/{id}','MainCategoriesController@update')->name('admin.main-categories.update');
+        ################################# End Of Categires Routes ################################
+
+        ################################# Sub-Categires Routes ################################
+        Route::resource('sub-categories', 'SubCategoriesController');
+       // Route::put('main-categories/{id}','MainCategoriesController@update')->name('admin.main-categories.update');
+        ################################# End Of Sub-Categires Routes ################################
+
+
     });
 // هان الصفحات اللي مش لازم يكون عليهن ميدلوير زي صفحة تسجيل الدخول
     Route::group(['namespace' => 'Admin', 'prefix' => 'admin', 'middleware' => 'guest:admin'], function () {

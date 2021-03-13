@@ -15,7 +15,7 @@ class CreateCategoriesTable extends Migration
     {
         Schema::create('categories', function (Blueprint $table) {
             $table->increments('id'); //this is for main category
-            $table->integer('parent_id')->unsigned()->nullable(); //this is for subcategory of main category
+            $table->integer('parent_id')->nullable()->unsigned(); //this is for subcategory of main category
             $table->string('slug')->unique();
             $table->boolean('is_active') ;
             $table->timestamps();

@@ -10,5 +10,5 @@ class settingTranslation extends Model
     // لو انا مثلا بلاقي صعوبة اني احدد الشغلات اللي بتكون fillable بروح بكتب هاد الامر اللي تحت وبريح راسي
     protected $guarded =[];
     // وهاد بيحددلي كل الشغلات اللي بتكون fillable
-    public $timestamps = false ;
+    public $timestamps = false ; // // لازم لما اكون مستخدم ال translation اكتب $timestamps سواء كان false or ture
 }
