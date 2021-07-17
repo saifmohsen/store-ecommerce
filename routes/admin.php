@@ -47,7 +47,14 @@ Route::group(
         Route::resource('sub-categories', 'SubCategoriesController');
        // Route::put('main-categories/{id}','MainCategoriesController@update')->name('admin.main-categories.update');
         ################################# End Of Sub-Categires Routes ################################
-
+        ################################# brands Routes ################################
+        Route::resource('brands', 'BrandsController');
+        // Route::put('main-categories/{id}','MainCategoriesController@update')->name('admin.main-categories.update');
+        ################################# End Of brands Routes ################################
+        ################################# tags Routes ################################
+        Route::resource('tags', 'tagsController');
+        // Route::put('main-categories/{id}','MainCategoriesController@update')->name('admin.main-categories.update');
+        ################################# End Of tags Routes ################################
 
     });
 // هان الصفحات اللي مش لازم يكون عليهن ميدلوير زي صفحة تسجيل الدخول

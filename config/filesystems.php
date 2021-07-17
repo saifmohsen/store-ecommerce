@@ -48,10 +48,17 @@ return [
             'root' => storage_path('app'),
         ],
 
-        'public' => [
+        'public' => [ // هاد هو المجلد الافتراضي اللي راح يتم تخزين الصور فيه لو حطيت كلمة public بدلا من مثلا كلمة brands في brandcontroller
             'driver' => 'local',
             'root' => storage_path('app/public'),
             'url' => env('APP_URL').'/storage',
+            'visibility' => 'public',
+        ],
+// هان عملت واحد جديد عشان اخزن فيه بس صور شيء معين اللي هو فقط للبراند
+        'brands' => [ //هاد الاسم اللي هان هو اللي انا حطيتو في ملف brandscontroller
+            'driver' => 'local',
+            'root' => public_path('assets/images/brands'), //المكان اللي راح يتم تخزين الصور فيه
+            'url' => env('APP_URL') . '/storage',
             'visibility' => 'public',
         ],
 

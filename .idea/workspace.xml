@@ -19,21 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b35403a-8752-4ff9-a5b1-aaca5b9109ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Helpers/general.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helpers/general.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProfileController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/CategoryTranslation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/CategoryTranslation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/settingTranslation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/settingTranslation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_22_140956_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_02_22_140956_create_categories_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/ar/admin/alerts.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/admin/alerts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/admin/alerts.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/admin/alerts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/profile/EditProfile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/profile/EditProfile.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
-    </list>
+    <list default="true" id="5b35403a-8752-4ff9-a5b1-aaca5b9109ca" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,20 +156,21 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/categories/subCategories" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\store-ecommerce\resources\views\admin" />
+      <recent name="C:\xampp\htdocs\store-ecommerce\resources\views\admin\brands" />
       <recent name="C:\xampp\htdocs\ecommerce\resources\views\admin\categories\subCategories" />
       <recent name="C:\xampp\htdocs\ecommerce\resources\views\admin\categories" />
       <recent name="C:\xampp\htdocs\ecommerce\resources\views\admin" />
-      <recent name="C:\xampp\htdocs\ecommerce\resources\views\admin\profile" />
-      <recent name="C:\xampp\htdocs\ecommerce\resources\lang\ar\admin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\ecommerce\app\Http\Controllers\Admin" />
@@ -249,6 +236,15 @@
       <workItem from="1615216102870" duration="9560000" />
       <workItem from="1615492996097" duration="12039000" />
       <workItem from="1615670164783" duration="1884000" />
+      <workItem from="1625586659544" duration="475000" />
+      <workItem from="1625587226411" duration="41000" />
+      <workItem from="1625592088020" duration="30000" />
+      <workItem from="1625595491985" duration="4904000" />
+      <workItem from="1625842321529" duration="6246000" />
+      <workItem from="1625919368027" duration="10702000" />
+      <workItem from="1625995102281" duration="10059000" />
+      <workItem from="1626436505906" duration="7525000" />
+      <workItem from="1626472809022" duration="5539000" />
     </task>
     <servers />
   </component>
@@ -260,7 +256,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="brands-tags" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

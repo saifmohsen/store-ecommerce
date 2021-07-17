@@ -159,5 +159,9 @@ class MainCategoriesController extends Controller
             return redirect()->route('main-categories.index')->with(['error' => 'حدث خطا ما برجاء المحاوله لاحقا']);
         }
     }
+    public function callAction($method, $parameters) // هاي حطيتها عشان احل مشكلة unknown name parameter لاني عملت ترقية لنسخة php للاصدار التامن
+    {
+        return parent::callAction($method, array_values($parameters));
+    }
 
 }
