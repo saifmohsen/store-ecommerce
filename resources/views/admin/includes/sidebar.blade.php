@@ -54,30 +54,30 @@
             </li>
 
             <li class="nav-item"><a href=""><i class="la la-male"></i>
-                    <span class="menu-title" data-i18n="nav.dash.main">{{__('admin/sidebar.stores')}} </span>
+                    <span class="menu-title" data-i18n="nav.dash.main">{{__('admin/sidebar.brands')}} </span>
                     <span
                         class="badge badge badge-success badge-pill float-right mr-2"></span>
                 </a>
                 <ul class="menu-content">
-                    <li class="active"><a class="menu-item" href=""
+                    <li class="active"><a class="menu-item" href="{{ route('brands.index') }}"
                                           data-i18n="nav.dash.ecommerce"> {{__('admin/sidebar.show all')}} </a>
                     </li>
-                    <li><a class="menu-item" href="" data-i18n="nav.dash.crypto"> {{__('admin/sidebar.add new store')}} </a>
+                    <li><a class="menu-item" href="{{ route('brands.create') }}" data-i18n="nav.dash.crypto"> {{__('admin/sidebar.add new brand')}} </a>
                     </li>
                 </ul>
             </li>
 
 
             <li class="nav-item"><a href=""><i class="la la-male"></i>
-                    <span class="menu-title" data-i18n="nav.dash.main"> {{__('admin/sidebar.students')}} </span>
+                    <span class="menu-title" data-i18n="nav.dash.main"> {{__('admin/sidebar.tags')}} </span>
                     <span
                         class="badge badge badge-warning  badge-pill float-right mr-2"></span>
                 </a>
                 <ul class="menu-content">
-                    <li class="active"><a class="menu-item" href=""
+                    <li class="active"><a class="menu-item" href="{{ route('tags.index') }}"
                                           data-i18n="nav.dash.ecommerce"> {{ __('admin/sidebar.show all')}} </a>
                     </li>
-                    <li><a class="menu-item" href="" data-i18n="nav.dash.crypto"> {{__('admin/sidebar.add new student')}} </a>
+                    <li><a class="menu-item" href="{{ route('tags.create') }}" data-i18n="nav.dash.crypto"> {{__('admin/sidebar.add new tag')}} </a>
                     </li>
                 </ul>
             </li>
